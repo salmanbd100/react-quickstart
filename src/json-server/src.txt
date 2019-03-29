@@ -1,1 +1,5 @@
+https://github.com/typicode/json-server
+
+json-server --watch db.json
+
 https://github.com/marak/Faker.js/

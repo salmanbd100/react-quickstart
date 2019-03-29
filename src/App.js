@@ -1,19 +1,30 @@
 import React, { Component } from "react";
 import { Provider } from "react-redux";
 import store from "./store";
-import Count from "./components/Count";
-import Control from "./components/Control";
+import { ReduxTest } from "./app/ReduxTest";
+import Bookmark from "./app/Bookmark";
+import { Navbar } from "./components";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+
+import apiHelper from "./apiHelper";
+apiHelper ();
+
 class App extends Component {
   render() {
     return (
       <Provider store={store}>
-        <div className="App">
-          <div className="container">
-            <h1>Redux Learning</h1>
-            <Count />
-            <Control />
+        <Router>
+          <div className="App">
+            <div className="container">
+              <Navbar />
+              {/* <ReduxTest /> */}
+              {/* <Bookmark name="bookmark" /> */}
+            </div>
+            <Route path="/redux" component={ReduxTest} />
+            <Route path="/bookmark" component={Bookmark} />
           </div>
-        </div>
+          
+        </Router>
       </Provider>
     );
   }

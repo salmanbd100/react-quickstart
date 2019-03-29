@@ -1,19 +1,54 @@
 {
-  "posts": [
+  "data": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "name": "Herbert Fisher",
+      "email": "Nelson77@yahoo.com"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "name": "Jordyn O'Hara DVM",
+      "email": "Maybell41@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Randal Pfeffer",
+      "email": "Wyatt25@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Domingo Rippin",
+      "email": "Era.Bruen@gmail.com"
+    },
+    {
+      "id": 5,
+      "name": "Elouise Champlin",
+      "email": "Talon.Kessler@yahoo.com"
+    },
+    {
+      "id": 6,
+      "name": "Brock Crist",
+      "email": "Kay.Sauer@gmail.com"
+    },
+    {
+      "id": 7,
+      "name": "Mr. Eusebio Jerde",
+      "email": "Aisha24@yahoo.com"
+    },
+    {
+      "id": 9,
+      "name": "Talia Balistreri",
+      "email": "Cathy_Ritchie20@yahoo.com"
+    },
+    {
+      "id": 10,
+      "name": "Mrs. Alessia Wuckert",
+      "email": "Odell94@yahoo.com"
+    },
+    {
+      "name": "Tamanna Rahman",
+      "email": "tamu@yahoo.com",
+      "id": 12
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
