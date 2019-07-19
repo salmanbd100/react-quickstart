@@ -1,13 +1,9 @@
 import React, { Component } from "react";
 import { Provider } from "react-redux";
 import store from "./store";
-import { ReduxTest } from "./app/ReduxTest";
-import Bookmark from "./app/Bookmark";
+import { Home } from "./app/Home";
 import { Navbar } from "./components";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-
-import apiHelper from "./apiHelper";
-apiHelper ();
 
 class App extends Component {
   render() {
@@ -17,13 +13,9 @@ class App extends Component {
           <div className="App">
             <div className="container">
               <Navbar />
-              {/* <ReduxTest /> */}
-              {/* <Bookmark name="bookmark" /> */}
             </div>
-            <Route path="/redux" component={ReduxTest} />
-            <Route path="/bookmark" component={Bookmark} />
+            <Route path="/" component={Home} />
           </div>
-          
         </Router>
       </Provider>
     );
