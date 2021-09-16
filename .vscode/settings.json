@@ -3,7 +3,7 @@
   "editor.formatOnSave": true,
   "[javascript]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascriptreact]": {
     "editor.formatOnSave": false,
@@ -16,7 +16,6 @@
     "source.organizeImports": true
   },
   "eslint.alwaysShowStatus": true,
-  // emmet
   "emmet.triggerExpansionOnTab": true,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"

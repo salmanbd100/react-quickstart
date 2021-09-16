@@ -1,5 +1,4 @@
 function App() {
-  console.log('obj');
   return (
     <div className="App">
       <header className="App-header">
@@ -11,15 +10,14 @@ function App() {
         >
           Learn React
         </a>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit.Cum quae aliquam molestias eos obcaecati! Ut aperiam sequi
-        sed est molestias, eveniet ratione distinctio atque esse quo.
-        Cumque rem laboriosam optio? Praesentium, eligendi! Accusamus
-        animi fugiat harum ea minus, ex reprehenderit ullam ad assumenda
-        autem, qui neque perferendis praesentium error, laborum nemo voluptates!
-        Nulla at sit pariatur assumenda voluptatibus labore exercitationem expedita
-        consequatur. Aliquid perferendis nesciunt perspiciatis beatae deserunt a ab
-        nobis labore nostrum non quae ratione consequatur voluptatibus ad fugit molestiae
-        debitis cum nemo, doloribus sit numquam, vel incidunt ducimus! Autem aliquam,
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit.Cum quae aliquam molestias eos
+        obcaecati! Ut aperiam sequi sed est molestias, eveniet ratione distinctio atque esse quo.
+        Cumque rem laboriosam optio? Praesentium, eligendi! Accusamus animi fugiat harum ea minus,
+        ex reprehenderit ullam ad assumenda autem, qui neque perferendis praesentium error, laborum
+        nemo voluptates! Nulla at sit pariatur assumenda voluptatibus labore exercitationem expedita
+        consequatur. Aliquid perferendis nesciunt perspiciatis beatae deserunt a ab nobis labore
+        nostrum non quae ratione consequatur voluptatibus ad fugit molestiae debitis cum nemo,
+        doloribus sit numquam, vel incidunt ducimus! Autem aliquam,
       </header>
     </div>
   );
