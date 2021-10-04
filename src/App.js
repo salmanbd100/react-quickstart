@@ -1,6 +1,9 @@
+import ExchangeRates from './components/ExchangeRates';
+
 function App() {
   return (
     <div className="App">
+      <ExchangeRates />
       <header className="App-header">
         <a
           className="App-link"
